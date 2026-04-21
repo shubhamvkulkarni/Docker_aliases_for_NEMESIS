@@ -12,12 +12,7 @@ Each alias runs the matching executable inside the `nemesis-app` Docker image an
 docker run --rm -i -v "$(pwd)":/data -w /data nemesis-app <executable>
 ```
 
-## Links
-
-- Docker Hub:
-- NEMESIS GitHub: https://github.com/nemesiscode/radtrancode.git
-
-## Executable list
+## Instructions
 
 The aliases are generated from:
 
@@ -27,7 +22,7 @@ nemesis_executables.txt
 
 To add or remove an executable, edit that file and rerun the script for your shell.
 
-## Bash
+1. Bash
 
 Run this from a Bash terminal:
 
@@ -44,7 +39,7 @@ To update a different file:
 ./add_nemesis_docker_aliases.sh /path/to/.bashrc
 ```
 
-## zsh on macOS
+2. zsh on macOS
 
 Run this from a zsh terminal:
 
@@ -61,7 +56,7 @@ To update a different file:
 ./add_nemesis_docker_aliases.zsh /path/to/.zshrc
 ```
 
-## C shell or tcsh
+3. C shell or tcsh
 
 Run this from a `csh` or `tcsh` terminal:
 
@@ -104,3 +99,8 @@ setenv NEMESIS_DOCKER_IMAGE my-image-name
 ## Notes
 
 The scripts write aliases inside a managed block in your shell startup file. Rerunning a script refreshes that block instead of adding duplicate aliases.
+
+## Links
+
+- Docker Hub:
+- NEMESIS GitHub: https://github.com/nemesiscode/radtrancode.git
