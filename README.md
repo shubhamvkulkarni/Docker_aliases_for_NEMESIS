@@ -59,7 +59,7 @@ To update a different file, pass the target file as the first argument:
 
 ```csh
 ./add_nemesis_docker_aliases.sh /path/to/.bashrc or .zshrc or .cshrc
-s```
+```
 
 ## Docker image name
 
