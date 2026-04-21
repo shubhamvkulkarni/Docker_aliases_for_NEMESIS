@@ -22,7 +22,7 @@ nemesis_executables.txt
 
 To add or remove an executable, edit that file and rerun the script for your shell.
 
-1. Bash
+1. **Bash**
 
 Run this from a Bash terminal:
 
@@ -39,7 +39,7 @@ To update a different file:
 ./add_nemesis_docker_aliases.sh /path/to/.bashrc
 ```
 
-2. zsh on macOS
+2. **zsh on macOS**
 
 Run this from a zsh terminal:
 
@@ -56,7 +56,7 @@ To update a different file:
 ./add_nemesis_docker_aliases.zsh /path/to/.zshrc
 ```
 
-3. C shell or tcsh
+3. **C shell or tcsh**
 
 Run this from a `csh` or `tcsh` terminal:
 
