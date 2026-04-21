@@ -33,12 +33,6 @@ source ~/.bashrc
 
 This updates `~/.bashrc`.
 
-To update a different file:
-
-```sh
-./add_nemesis_docker_aliases.sh /path/to/.bashrc
-```
-
 2. **zsh on macOS**
 
 Run this from a zsh terminal:
@@ -49,12 +43,6 @@ source ~/.zshrc
 ```
 
 This updates `~/.zshrc`.
-
-To update a different file:
-
-```sh
-./add_nemesis_docker_aliases.zsh /path/to/.zshrc
-```
 
 3. **C shell or tcsh**
 
@@ -67,9 +55,11 @@ source ~/.cshrc
 
 This updates `~/.cshrc`.
 
-To update a different file:
+To update a different file, pass the target file as the first argument:
 
 ```csh
+./add_nemesis_docker_aliases.sh /path/to/.bashrc
+./add_nemesis_docker_aliases.zsh /path/to/.zshrc
 ./add_nemesis_docker_aliases.csh /path/to/.cshrc
 ```
 
