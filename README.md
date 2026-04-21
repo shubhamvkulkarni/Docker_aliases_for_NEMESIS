@@ -90,5 +90,5 @@ The scripts write aliases inside a managed block in your shell startup file. Rer
 
 ## Links
 
-- Docker Hub:
-- NEMESIS GitHub: https://github.com/nemesiscode/radtrancode.git
+- NEMESIS on Docker Hub:
+- NEMESIS on GitHub: https://github.com/nemesiscode/radtrancode.git
