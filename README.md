@@ -58,10 +58,8 @@ This updates `~/.cshrc`.
 To update a different file, pass the target file as the first argument:
 
 ```csh
-./add_nemesis_docker_aliases.sh /path/to/.bashrc
-./add_nemesis_docker_aliases.zsh /path/to/.zshrc
-./add_nemesis_docker_aliases.csh /path/to/.cshrc
-```
+./add_nemesis_docker_aliases.sh /path/to/.bashrc or .zshrc or .cshrc
+s```
 
 ## Docker image name
 
