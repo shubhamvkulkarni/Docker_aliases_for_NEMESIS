@@ -6,10 +6,10 @@ These scripts add shell aliases for NEMESIS executables when NEMESIS is installe
 Nemesis <runname.nam> test.prc &
 ```
 
-Each alias runs the matching executable inside the `nemesis-app` Docker image and mounts the current directory as `/data`:
+Each alias runs the matching executable inside the `patrickirwinoxford/docker_nemesis` Docker image and mounts the current directory as `/data`:
 
 ```sh
-docker run --rm -i -v "$(pwd)":/data -w /data nemesis-app <executable>
+docker run --rm -i -v "$(pwd)":/data -w /data patrickirwinoxford/docker_nemesis <executable>
 ```
 
 ## Instructions
@@ -63,7 +63,7 @@ To update a different file, pass the target file as the first argument:
 
 ## Docker image name
 
-By default, the scripts use the Docker image name `nemesis-app`.
+By default, the scripts use the Docker image name `patrickirwinoxford/docker_nemesis`.
 
 To use a different image name, set `NEMESIS_DOCKER_IMAGE` before running the script:
 

@@ -2,7 +2,7 @@
 set -euo pipefail
 
 BASHRC_FILE="${1:-$HOME/.bashrc}"
-IMAGE_NAME="${NEMESIS_DOCKER_IMAGE:-nemesis-app}"
+IMAGE_NAME="${NEMESIS_DOCKER_IMAGE:-patrickirwinoxford/docker_nemesis}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 EXECUTABLES_FILE="${NEMESIS_EXECUTABLES_FILE:-$SCRIPT_DIR/nemesis_executables.txt}"
 START_MARKER="# >>> NEMESIS docker aliases >>>"

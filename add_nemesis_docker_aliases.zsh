@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ZSHRC_FILE="${1:-$HOME/.zshrc}"
-IMAGE_NAME="${NEMESIS_DOCKER_IMAGE:-nemesis-app}"
+IMAGE_NAME="${NEMESIS_DOCKER_IMAGE:-patrickirwinoxford/docker_nemesis}"
 SCRIPT_DIR="${0:A:h}"
 EXECUTABLES_FILE="${NEMESIS_EXECUTABLES_FILE:-$SCRIPT_DIR/nemesis_executables.txt}"
 START_MARKER="# >>> NEMESIS docker aliases >>>"

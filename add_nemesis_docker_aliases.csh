@@ -5,7 +5,7 @@ if ($#argv >= 1) then
   set cshrc_file = "$argv[1]"
 endif
 
-set image_name = "nemesis-app"
+set image_name = "patrickirwinoxford/docker_nemesis"
 if ($?NEMESIS_DOCKER_IMAGE) then
   set image_name = "$NEMESIS_DOCKER_IMAGE"
 endif
